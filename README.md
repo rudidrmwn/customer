@@ -64,3 +64,47 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+# customers-management
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+Customer Management is CRUD using Laravel 10
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/rudidrmwn/customer.git
+   ```
+   
+2. Install Composer packages
+   ```sh
+   composer install
+   ```
+
+3. Install NPM packages
+   ```sh
+   npm install && npm run dev
+   ```
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+1. Running Laravel
+   ```sh
+   php artisan serve
+   ```
+2. Migrate Database and Seeding the regional data provinces and cities
+   ```sh
+   php artisan migrate
+   php artisan seed:data
+   ```
+3. Running Vite
+   ```sh
+   npm run dev
+   ```
+please refer to your customer page (https://localhost:8000/profile)_
+
+
