@@ -103,6 +103,6 @@
 </div>
 
 <script src="https://cdn.tailwindcss.com/?plugins=forms"></script>
-<script src="{{ asset('storage/js/searchData.js') }}"></script>
+<script src="{{ asset('js/searchData.js') }}"></script>
 </body>
 </html>

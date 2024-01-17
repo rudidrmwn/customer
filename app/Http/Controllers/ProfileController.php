@@ -29,7 +29,7 @@ class ProfileController extends Controller
         if ($request->ProvinceId) {
             $cities = City::where('province_id', $request->ProvinceId)->get();
             if ($cities) {
-                return response()->json(['status' => 'success', 'data' => $cities,'session'=>$value], 200);
+                return response()->json(['status' => 'success', 'data' => $cities], 200);
             }
             return response()->json(['status' => 'failed', 'message' => 'No cities found'], 404);
         }
