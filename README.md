@@ -99,7 +99,7 @@ Customer Management is CRUD using Laravel 10
 2. Migrate Database and Seeding the regional data provinces and cities
    ```sh
    php artisan migrate
-   php artisan seed:data
+   php artisan db:seed
    ```
 3. Running Vite
    ```sh
