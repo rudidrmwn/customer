@@ -105,6 +105,6 @@ Customer Management is CRUD using Laravel 10
    ```sh
    npm run dev
    ```
-please refer to your customer page (https://localhost:8000/profile)_
+please refer to your customer page (http://localhost:8000/profile)_
 
 
